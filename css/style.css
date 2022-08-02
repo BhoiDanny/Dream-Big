@@ -1,0 +1,123 @@
+/*
+Project Title: Dream Big
+Author: Codetopia Community
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #00293D;
+    background-image: url("../images/notebook.png");
+    background-attachment: local;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    line-height: 1.7;
+}
+
+h1 {
+    font-size: 50px;
+    letter-spacing: -5px;
+    margin-top: 50px;
+}
+
+h2 {
+    font-size: 30px;
+    margin: 0;
+    font-weight: 600;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+    color: #E14034;
+    font-weight: bold;
+}
+
+blockquote {
+  border-left: 5px solid #CBC923;  
+  padding-left: 10px;
+  margin: 0;
+  font-style: italic;
+}
+
+/*Main Section*/
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.main-content {
+    width: 60%;
+    float: left;
+    background-color: #FFF;
+    padding: 27px;
+    margin-right: 10px;
+    font-size: 14px;;
+}
+
+.footer {
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center
+}
+
+.sidebar {
+    width: 35%;
+    float: left;
+    background-color: white;
+    padding: 27px;
+    font-size: 14px;
+    border-left: 3px solid #BBB;
+    border-bottom: 3px solid #BBB;
+}
+
+.sidebar img {
+    width: 50%;
+    height: auto;
+    border-radius: 50%;
+}
+
+/*Small Components*/
+
+.head-tag {
+    padding: 15px 0;
+    margin: -65px 0 30px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.post {
+    margin-bottom: 50px;
+}
+
+.post-meta {
+    color: #999;
+    padding: 10px 0;
+    border-top: 1px solid #BBB;
+}
+
+.post-heading {
+    letter-spacing: -2px;
+}
+
+.clearfix {
+    overflow: hidden;
+}
+
+.clearfix::before, .clearfix::after {
+    content: "";
+    display: table;
+}
+
+.clearfix::after {
+    clear: both;
+}
